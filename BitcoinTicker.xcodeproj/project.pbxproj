@@ -54,14 +54,38 @@
 		0F8D22C020DCA8CA001F9011 /* BitcoinTicker */ = {
 			isa = PBXGroup;
 			children = (
-				0F8D22C120DCA8CA001F9011 /* AppDelegate.swift */,
-				0F8D22C320DCA8CA001F9011 /* ViewController.swift */,
-				0F8D22C520DCA8CA001F9011 /* Main.storyboard */,
-				0F8D22C820DCA8CC001F9011 /* Assets.xcassets */,
-				0F8D22CA20DCA8CC001F9011 /* LaunchScreen.storyboard */,
+				0F8D22D520DCA91E001F9011 /* Models */,
+				0F8D22D420DCA911001F9011 /* Views */,
+				0F8D22D320DCA8FB001F9011 /* Controllers */,
 				0F8D22CD20DCA8CC001F9011 /* Info.plist */,
 			);
 			path = BitcoinTicker;
+			sourceTree = "<group>";
+		};
+		0F8D22D320DCA8FB001F9011 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F8D22C120DCA8CA001F9011 /* AppDelegate.swift */,
+				0F8D22C320DCA8CA001F9011 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F8D22D420DCA911001F9011 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F8D22C520DCA8CA001F9011 /* Main.storyboard */,
+				0F8D22C820DCA8CC001F9011 /* Assets.xcassets */,
+				0F8D22CA20DCA8CC001F9011 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F8D22D520DCA91E001F9011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
